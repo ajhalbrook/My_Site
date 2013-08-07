@@ -1,0 +1,337 @@
+/* Table of Content
+==================================================
+	#Site Styles
+	#Page Styles
+	#Media Queries
+	#Font-Face */
+
+/* #Site Styles
+================================================== */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+
+#container {
+	background-color: #faf5df;
+}
+
+.page-content {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header img {
+	padding-top: 94px;
+	padding-bottom: 98px;
+	height: 43.98%;
+	width: 43.98%;
+}
+
+li {
+	margin: 0;
+	padding: 0;
+	display: inline;
+}
+
+li a {
+	display: inline-block;
+	padding: 35px 30px 10px 25px;
+	color: #575454;
+}
+
+ul {
+	list-style: none;
+	text-decoration: none;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #575454;
+	text-align: center;
+	padding-bottom: 80px;
+	letter-spacing: 1px;
+}
+
+ul#menu {
+	padding-bottom: 100px;
+	width: 100%;
+	display: inline-block;
+}
+
+li.contact a{
+	background:url(../images/icons/email.png) no-repeat ;
+	background-position: 48% 5%;
+}
+
+li.tumblr a{
+	background:url(../images/icons/tumblr.png) no-repeat 0;
+	background-position: 47% 1%;
+}
+
+li.dribbble a{
+	background:url(../images/icons/dribbble.png) no-repeat 0;
+	background-position: 47% 1%;
+}
+
+li.twitter a{
+	background:url(../images/icons/twitter.png) no-repeat 0;
+	background-position: 50% 4%;
+}
+
+li.github a{
+	background:url(../images/icons/github.png) no-repeat 0;
+	background-position: 48% 1%;
+}
+
+#header img, #clashist img, #jchill img, #coach img, #soundcloud img, #posters img, div.text {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+div#wrapperclash, div#wrapperhill, div#wrappercoach, div#wrapperposters {
+	background-color: #faf5df;
+}
+
+div#wrapperhead, div#wrappernews, div#wrapperalbums, div#wrappersound {
+	background-color: #f7eec6;
+}
+
+div#wrapperfooter {
+	background-color: #ffffff;
+}
+
+img#clashistmac, img#coachmac {
+	padding-bottom: 50px;
+	width: 65%;
+	height: 65%;
+}
+
+img#jhmacair {
+	height: 100%;
+	width: 100%;
+}
+
+img#soundcloudmac {
+	padding-bottom: 50px;
+	height: 85%;
+	width: 85%;
+}
+
+img#poster {
+	padding-bottom: 120px;
+	width: 80%;
+	height: 80%;
+}
+
+img#logo1 {
+	padding-top: 80px;
+	height: 20%;
+	width: 20%;
+}
+
+div#logos2 {
+	display: block;
+	padding-top: 100px;
+	/*height: 60%;
+	width: 100%;*/
+	margin: auto;
+	padding-bottom: 100px;
+}
+
+img#logos {
+	height: 7.75%;
+	width: 63.75%;
+}
+
+div#albums {
+	margin: auto;
+	display: block;
+}
+
+div#covers {
+	margin: auto;
+	padding: 0px 30px 0px 30px;
+	/*padding-left: 30px;*/
+	display: block;
+}
+
+img.album {
+	height: 44%;
+	width: 44%;
+	/*padding: 0px 50px 40px 50px;*/
+}
+
+img#album1, img#album2 {
+	padding: 0px 25px 25px 25px;
+
+}
+
+img#album3, img#album4 {
+	padding: 25px 25px 0px 25px;
+}
+
+div#coach, div#jchill, div#soundcloud, div#albums, div#logos, div#clashist, div#posters, div#newsreader  {
+	padding-bottom: 120px; 
+}
+
+img#devices {
+	padding-bottom: 80px;
+	padding-left: 30px;
+	height: 75%;
+	width: 75%;
+}
+
+div#soundcloud {
+	padding-bottom: 100px;
+}
+
+#menu div {
+	/*margin-bottom: 107px;*/
+}
+
+div#clashist-text {
+	width: 227px;
+}
+
+div#newsreadertext {
+	width: 300px;
+}
+
+div#jchilltext {
+	width: 358px;
+}
+
+div#albumtext {
+	width: 320px;
+}
+
+div#coachtext {
+	width: 330px;
+}
+
+div#soundcloudtext {
+	width: 352px;
+}
+
+div#posterstext {
+	width: 317px;
+}
+
+div#devices {
+	padding-right: 47px;
+}
+
+.text {
+	text-align: center;
+	padding-top: 90px;
+	padding-bottom: 90px; 
+	line-height: 200%;
+}
+
+
+p.text-title {
+	font-family: 'Roboto', Helvetica, sans-serif;
+	color: #999898;
+	font-size: 1.75em;
+	line-height: 150%;
+	padding-bottom: 7px;
+	letter-spacing: 1px;
+	font-weight: 200;
+}
+
+p.text-content {
+	font-size: 1em;
+	color: #999898;
+	font-family: 'Roboto', Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+div.button-text {
+	width: 220px;
+	height: 55px;
+	line-height: 57px;
+	color: white;
+	background: #fc8e58;
+	margin: auto;
+	text-align: center;
+	font-size: 1em;
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-weight: 100;
+}
+
+div#jbutton {
+	padding-bottom: 10px;
+}
+
+#footer p {
+    font-family: 'Roboto', Helvetica, sans-serif;
+    font-size: 1em;
+    color: #999898;
+    text-align: center;
+    vertical-align: middle;
+    letter-spacing: 1px;
+}
+
+p#copyright {
+	line-height: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+div#footer {
+	background-color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #575454;
+}
+
+/* #Page Styles
+================================================== */
+
+/* #Media Queries
+================================================== */
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {}
+
+	@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+	@import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+	/*@font-face {
+	    font-family: 'ProximaNova-Regular';
+	    src: url('../fonts/FontName.eot');
+	    src: url('../fonts/FontName.eot?iefix') format('eot'),
+	         url('../fonts/FontName.woff') format('woff'),
+	         url('../fonts/FontName.ttf') format('truetype'),
+	         url('../fonts/FontName.svg#webfontZam02nTh') format('svg');
+	    font-weight: normal;
+	    font-style: normal; }*/
