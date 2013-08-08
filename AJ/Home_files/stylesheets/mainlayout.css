@@ -55,39 +55,51 @@ ul {
 	font-size: 0.9em;
 	color: #575454;
 	text-align: center;
-	padding-bottom: 80px;
+	/*padding-bottom: 80px;*/
 	letter-spacing: 1px;
 }
 
 ul#menu {
-	padding-bottom: 100px;
+	/*padding-bottom: 30px;*/
 	width: 100%;
 	display: inline-block;
 }
 
 li.contact a{
-	background:url(../images/icons/email.png) no-repeat ;
+	background:url(/AJ/Home_files/images/icons/email.png) no-repeat ;
 	background-position: 48% 5%;
 }
 
 li.tumblr a{
-	background:url(../images/icons/tumblr.png) no-repeat 0;
+	background:url(/AJ/Home_files/images/icons/tumblr.png) no-repeat 0;
 	background-position: 47% 1%;
 }
 
 li.dribbble a{
-	background:url(../images/icons/dribbble.png) no-repeat 0;
+	background:url(/AJ/Home_files/images/icons/dribbble.png) no-repeat 0;
 	background-position: 47% 1%;
 }
 
 li.twitter a{
-	background:url(../images/icons/twitter.png) no-repeat 0;
+	background:url(/AJ/Home_files/images/icons/twitter.png) no-repeat 0;
 	background-position: 50% 4%;
 }
 
 li.github a{
-	background:url(../images/icons/github.png) no-repeat 0;
+	background:url(/AJ/Home_files/images/icons/github.png) no-repeat 0;
 	background-position: 48% 1%;
+}
+
+img#arrow {
+	height: 24px;
+	width: 22px;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+
+img#up-arrow {
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 #header img, #clashist img, #jchill img, #coach img, #soundcloud img, #posters img, div.text {
@@ -97,11 +109,11 @@ li.github a{
 }
 
 div#wrapperclash, div#wrapperhill, div#wrappercoach, div#wrapperposters {
-	background-color: #faf5df;
+	background-color: #fcf8f4;
 }
 
 div#wrapperhead, div#wrappernews, div#wrapperalbums, div#wrappersound {
-	background-color: #f7eec6;
+	background-color: #faf5df;
 }
 
 div#wrapperfooter {
@@ -178,7 +190,7 @@ img#album3, img#album4 {
 	padding: 25px 25px 0px 25px;
 }
 
-div#coach, div#jchill, div#soundcloud, div#albums, div#logos, div#clashist, div#posters, div#newsreader  {
+div#coach, div#jchill, div#soundcloud, div#albums, div#logos, div#clashist, div#newsreader  {
 	padding-bottom: 120px; 
 }
 
@@ -206,19 +218,19 @@ div#newsreadertext {
 }
 
 div#jchilltext {
-	width: 358px;
+	width: 317px;
 }
 
 div#albumtext {
-	width: 320px;
+	width: 317px;
 }
 
 div#coachtext {
-	width: 330px;
+	width: 317px;
 }
 
 div#soundcloudtext {
-	width: 352px;
+	width: 317px;
 }
 
 div#posterstext {
@@ -271,6 +283,10 @@ div.button-text {
 
 div#jbutton {
 	padding-bottom: 10px;
+}
+
+div#buttonposter {
+	padding-bottom: 90px;
 }
 
 #footer p {
